@@ -17,6 +17,7 @@
   <a href="https://github.com/Roxx0x/wetware/actions/workflows/test.yml"><img src="https://img.shields.io/badge/tests-7_passing-3d8bfd?style=for-the-badge" alt="tests" /></a>
 </p>
 <img width="2560" height="3120" alt="image" src="https://github.com/user-attachments/assets/6f8cb0e4-e730-43f5-9374-dbe5890ec5fd" />
+
 ## What this is
 
 In 2023 scientists finished the first synapse-resolution wiring diagram of an entire animal brain — the larval fruit fly. **2952 neurons, ~110,000 connections, every one mapped.** It's public.
