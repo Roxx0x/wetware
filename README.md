@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="wetware — compute on a real brain" width="640" />
+  <img width="2560" height="3120" alt="image" src="https://github.com/user-attachments/assets/6f8cb0e4-e730-43f5-9374-dbe5890ec5fd" />
 </p>
 
 <h1 align="center">wetware</h1>
@@ -38,7 +38,8 @@ $ wetware run digits
 ```
 
 <p align="center">
-  <img src="assets/run.png" alt="wetware reading handwritten digits at 94% on the real connectome" width="720" />
+  <img width="3000" height="2100" alt="image" src="https://github.com/user-attachments/assets/dd0d721a-3af6-4dab-b6d1-ea7a09e5cb00" />
+
 </p>
 
 That 94% is the fly's brain, wired as nature left it, reading handwriting it has never seen — with only a linear readout trained on top.
@@ -96,6 +97,7 @@ Swap the task, keep the brain. That's what makes it universal: the same fixed br
 | `timeseries` | predict a nonlinear series (NARMA-style) | **~2x** better than predict-the-mean |
 
 Write your own: build `(inputs, targets)`, run them through a `Reservoir`, fit a `Readout`. Two objects, one closed-form solve.
+<img width="3000" height="2100" alt="image" src="https://github.com/user-attachments/assets/659e8484-b904-4072-a076-fd7af289113c" />
 
 ## The science
 
