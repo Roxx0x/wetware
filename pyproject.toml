@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wetware"
+version = "0.1.0"
+description = "Compute on a real brain: the complete fruit-fly connectome run as a reservoir, with a trained readout."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = ["connectome", "drosophila", "reservoir-computing", "echo-state-network", "neuroscience", "biological-computing", "flywire"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+fast = ["scipy>=1.9"]
+demos = ["scikit-learn>=1.1"]
+all = ["scipy>=1.9", "scikit-learn>=1.1"]
+dev = ["pytest>=7", "scipy>=1.9", "scikit-learn>=1.1"]
+
+[project.scripts]
+wetware = "wetware.cli:main"
+
+[project.urls]
+Source = "https://github.com/Roxx0x/wetware"
+
+[tool.hatch.build.targets.wheel]
+packages = ["wetware"]
